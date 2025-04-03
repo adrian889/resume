@@ -1,6 +1,6 @@
 .resume-container {
     display: grid;
-    grid-template-columns: 34% 66%; /* Sidebar and content widths */
+    grid-template-columns: 35% 65%; /* Sidebar and content widths */
     width: 900px;
     background: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
