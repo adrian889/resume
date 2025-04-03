@@ -8,7 +8,16 @@
     padding-top: 20px
   }
   
-  
+  .summary-section {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f0f0f0; /* Light background to visually separate it */
+
+}
+
+.summary-section p {
+    line-height: 1.6; /* Improves readability */
+}
   
   .resume-sidebar {
     display: flex;
@@ -17,6 +26,7 @@
     color: rgb(255, 255, 255);
     padding: 20px;
     margin: 15px;
+    
   }
   
   .sidebar-section {
@@ -72,6 +82,10 @@
   
   .resume-section {
     margin-bottom: 20px;
+    grid-column: 2;
+    grid-row: 1;
+    padding: 20px;
+    padding-top: 15px;
   }
   
   .skills-list {
