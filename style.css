@@ -1,0 +1,102 @@
+.resume-container {
+    display: grid;
+    grid-template-columns: 34% 66%; /* Sidebar and content widths */
+    width: 900px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding-top: 20px
+  }
+  
+  .resume-sidebar {
+    display: flex;
+    flex-direction: column;
+    background: #607180;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 15px;
+  }
+  
+  .sidebar-section {
+    border-bottom: 1px solid #6f7f8f;
+    /* Subtle border color */
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .sidebar-section:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  
+  .profile-photo {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+  
+  .resume-sidebar h2 {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+  }
+  
+  .resume-image {
+    display: block;
+    margin-left: 70px;
+  }
+  .resume-sidebar h2 {
+    margin-left: 10px;
+    height: 50px;
+  }
+  
+  .resume-sidebar a {
+    color: #1abc9c;
+    text-decoration: none;
+  }
+  .resume-content {
+    grid-column: 2;
+    grid-row: 1;
+    padding: 20px;
+  }
+  
+  .resume-content h1,
+  .resume-content h2 {
+    color: #2c3e50;
+  }
+  
+  .resume-section {
+    margin-bottom: 20px;
+  }
+  
+  .skills-list {
+    margin-top: 10px;
+  }
+  
+  .skills-list strong {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .skills-list ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skills-list li {
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 3px;
+    font-size: 0.9em;
+  }
+  
+  p h1 h2 h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+    font-weight: 700;
+  }
